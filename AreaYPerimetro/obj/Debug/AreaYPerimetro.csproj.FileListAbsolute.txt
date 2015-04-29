@@ -1,0 +1,12 @@
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\AreaYPerimetro\bin\Debug\AreaYPerimetro.exe.config
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\AreaYPerimetro\bin\Debug\AreaYPerimetro.exe
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\AreaYPerimetro\bin\Debug\AreaYPerimetro.pdb
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\AreaYPerimetro\obj\Debug\AreaYPerimetro.csprojResolveAssemblyReference.cache
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\AreaYPerimetro\obj\Debug\AreaYPerimetro.Form1.resources
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\AreaYPerimetro\obj\Debug\AreaYPerimetro.Properties.Resources.resources
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\AreaYPerimetro\obj\Debug\AreaYPerimetro.csproj.GenerateResource.Cache
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\AreaYPerimetro\obj\Debug\AreaYPerimetro.exe
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\AreaYPerimetro\obj\Debug\AreaYPerimetro.pdb
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1 Johana\AreaYPerimetro\bin\Debug\AreaYPerimetro.exe.config
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1 Johana\AreaYPerimetro\obj\Debug\AreaYPerimetro.exe
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1 Johana\AreaYPerimetro\obj\Debug\AreaYPerimetro.pdb

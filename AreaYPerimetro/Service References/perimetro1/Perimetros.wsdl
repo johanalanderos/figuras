@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="PerimetroTriangulo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="lado" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PerimetroTrianguloResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PerimetroTrianguloResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PerimetroCuadrdo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="lado1" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PerimetroCuadrdoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PerimetroCuadrdoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PerimetroCirculo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="radio" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PerimetroCirculoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PerimetroCirculoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PerimetroTrianguloSoapIn">
+    <wsdl:part name="parameters" element="tns:PerimetroTriangulo" />
+  </wsdl:message>
+  <wsdl:message name="PerimetroTrianguloSoapOut">
+    <wsdl:part name="parameters" element="tns:PerimetroTrianguloResponse" />
+  </wsdl:message>
+  <wsdl:message name="PerimetroCuadrdoSoapIn">
+    <wsdl:part name="parameters" element="tns:PerimetroCuadrdo" />
+  </wsdl:message>
+  <wsdl:message name="PerimetroCuadrdoSoapOut">
+    <wsdl:part name="parameters" element="tns:PerimetroCuadrdoResponse" />
+  </wsdl:message>
+  <wsdl:message name="PerimetroCirculoSoapIn">
+    <wsdl:part name="parameters" element="tns:PerimetroCirculo" />
+  </wsdl:message>
+  <wsdl:message name="PerimetroCirculoSoapOut">
+    <wsdl:part name="parameters" element="tns:PerimetroCirculoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PerimetrosSoap">
+    <wsdl:operation name="PerimetroTriangulo">
+      <wsdl:input message="tns:PerimetroTrianguloSoapIn" />
+      <wsdl:output message="tns:PerimetroTrianguloSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PerimetroCuadrdo">
+      <wsdl:input message="tns:PerimetroCuadrdoSoapIn" />
+      <wsdl:output message="tns:PerimetroCuadrdoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PerimetroCirculo">
+      <wsdl:input message="tns:PerimetroCirculoSoapIn" />
+      <wsdl:output message="tns:PerimetroCirculoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PerimetrosSoap" type="tns:PerimetrosSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PerimetroTriangulo">
+      <soap:operation soapAction="http://tempuri.org/PerimetroTriangulo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PerimetroCuadrdo">
+      <soap:operation soapAction="http://tempuri.org/PerimetroCuadrdo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PerimetroCirculo">
+      <soap:operation soapAction="http://tempuri.org/PerimetroCirculo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PerimetrosSoap12" type="tns:PerimetrosSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PerimetroTriangulo">
+      <soap12:operation soapAction="http://tempuri.org/PerimetroTriangulo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PerimetroCuadrdo">
+      <soap12:operation soapAction="http://tempuri.org/PerimetroCuadrdo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PerimetroCirculo">
+      <soap12:operation soapAction="http://tempuri.org/PerimetroCirculo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Perimetros">
+    <wsdl:port name="PerimetrosSoap" binding="tns:PerimetrosSoap">
+      <soap:address location="http://localhost:5587/Perimetros.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PerimetrosSoap12" binding="tns:PerimetrosSoap12">
+      <soap12:address location="http://localhost:5587/Perimetros.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

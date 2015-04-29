@@ -1,0 +1,5 @@
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\Ejercicio1\bin\Ejercicio1.dll
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\Ejercicio1\bin\Ejercicio1.pdb
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.csprojResolveAssemblyReference.cache
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.dll
+C:\Users\Johana\Documents\8vo Semestre\Curso HTML 5\Ejercicio1\Ejercicio1\obj\Debug\Ejercicio1.pdb
